@@ -1,0 +1,103 @@
+db.runCommand({
+   collMod: "users",
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["first_name", "last_name", "email", "cellphone", "id_task"],
+         properties: {
+            first_name: {
+               bsonType: "string",
+               description: "Primeiro nome é uma string."
+            },
+            last_name: {
+               bsonType: "string",
+               description: "Sobrenome é uma string."
+            },
+            email: {
+               bsonType: "string",
+               description: "Email é uma string."
+            },
+            cellphone: {
+               bsonType: "string",
+               description: "Número de celular é uma string."
+            },
+            id_task: {
+               bsonType: "objectId",
+               description: "ID da tarefa é um ObjectId."
+            }
+         }
+      }
+   },
+   validationLevel: "strict",
+   validationAction: "error"
+})
+
+db.runCommand({
+   collMod: "tasks",
+   validator: {
+    $jsonSchema: {
+        "bsonType": "object",
+        "required": ["title", "description", "start_date", "deadline_date", "priority", "status", "id_project"],
+        "properties": {
+        "title": {
+            "bsonType": "string",
+            "description": "Título é uma string."
+        },
+        "description": {
+            "bsonType": "string",
+            "description": "Descrição é uma string."
+        },
+        "start_date": {
+            "bsonType": "string",
+            "description": "Data de início é uma string."
+        },
+        "deadline_date": {
+            "bsonType": "string",
+            "description": "Data de prazo é uma string."
+        },
+        "priority": {
+            "bsonType": "string",
+            "enum": ["1", "2", "3"],
+            "description": "Prioridade é uma string com valores permitidos."
+        },
+        "status": {
+            "bsonType": "string",
+            "enum": ["Em andamento", "Concluída"],
+            "description": "Status é uma string com valores permitidos."
+        },
+        "id_project": {
+            "bsonType": "objectId",
+            "description": "ID do projeto é um ObjectId."
+        }
+        }
+    }
+    },
+   validationLevel: "strict",
+   validationAction: "error"
+})
+
+db.runCommand({
+   collMod: "project",
+   validator: {
+    $jsonSchema: {
+        "bsonType": "object",
+        "required": ["name", "start_date", "end_date"],
+        "properties": {
+        "name": {
+            "bsonType": "string",
+            "description": "name é uma string."
+        },
+        "start_date": {
+            "bsonType": "string",
+            "description": "Data de inicio é uma string."
+        },
+        "end_date": {
+            "bsonType": "string",
+            "description": "Data de termino é uma string."
+        },
+        }
+     }
+    },
+   validationLevel: "strict",
+   validationAction: "error"
+})

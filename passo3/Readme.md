@@ -11,7 +11,7 @@ $ mongosh
 ```shell
 $ use todo_list
 
-db.createCollection("projects", {
+db.createCollection("project", {
    validator: {
       $jsonSchema: {
          bsonType: "object",

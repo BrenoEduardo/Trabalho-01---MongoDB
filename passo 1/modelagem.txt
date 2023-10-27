@@ -1,0 +1,34 @@
+Projects:
+{
+  "name": "Projeto A",
+  "start_date": "15/01/2023",
+  "end_date": "20/02/2023"
+}
+Essas variaveis foram escolhidas por estar no escopo do projeto;
+  
+Task:
+{
+  "title": "Fazer deploy",
+  "description": "Fazer deploy sabado de madrugada",
+  "start_date": "06/10/2023",
+  "deadline_data": "08/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ecb"
+  }
+}
+Da mesma forma que a anterior, a maioria dessas variaveis esta no escopo do projeto, porém adicionei a id_project, para a task ter uma "relação" com um projeto. Essa variavel guarda
+o id de um project
+
+User:
+{
+  "first_name": "João",
+  "last_name": "Silva",
+  "email": "joao.silva@example.com",
+  "cellphone": "+55 123456789",
+  "id_task": {
+    "$oid": "6532a11b7410328bf8081ef4"
+  }
+}
+Em user eu prefiri ouser o id_task, pois cada usuario pode ter muito task, não achei necessario colocar um id_project, pois a task ja esta atrelada a um projeto

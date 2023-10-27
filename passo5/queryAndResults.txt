@@ -1,0 +1,60 @@
+db.project.updateOne(
+  { "_id": ObjectId("65329d307410328bf8081ecb") },
+  { $set: { "name": "Novo Nome do Projeto A" } }
+)
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+db.users.updateOne(
+  { "id_task": ObjectId("6532a11b7410328bf8081ef5") },
+  { $set: { "email": "novo.email@example.com" } }
+)
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+db.users.updateOne(
+  { "_id": ObjectId("6532a2a77410328bf8081f13") },
+  { $push: { "projects": ObjectId("628a6e4527a14b64f89d6790") } }
+)
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+db.users.updateOne(
+  { "_id": ObjectId("6532a2a77410328bf8081f13") },
+  { $pull: { "projects": ObjectId("628a6e4527a14b64f89d6790") } }
+)
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+db.users.updateOne(
+  { "_id": ObjectId("6532a2a77410328bf8081f13") },
+  { $set: { "role": "Admin" } }
+)
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+

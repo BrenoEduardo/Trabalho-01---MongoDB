@@ -1,0 +1,39 @@
+Antes do indice
+
+{
+  db: 'mongo15',
+  collections: Long("3"),
+  views: Long("0"),
+  objects: Long("81"),
+  avgObjSize: 158.91358024691357,
+  dataSize: 12872,
+  storageSize: 98304,
+  indexes: Long("3"),
+  indexSize: 81920,
+  totalSize: 180224,
+  scaleFactor: Long("1"),
+  fsUsedSize: 255563927552,
+  fsTotalSize: 416987213824,
+  ok: 1
+}
+
+db.projects.createIndex({ "createdAt": 1 })
+
+Depois do indice
+
+{
+  db: 'mongo15',
+  collections: Long("3"),
+  views: Long("0"),
+  objects: Long("81"),
+  avgObjSize: 158.91358024691357,
+  dataSize: 12872,
+  storageSize: 98304,
+  indexes: Long("4"),
+  indexSize: 102400,
+  totalSize: 200704,
+  scaleFactor: Long("1"),
+  fsUsedSize: 255562526720,
+  fsTotalSize: 416987213824,
+  ok: 1
+}

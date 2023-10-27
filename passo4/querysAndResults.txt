@@ -1,0 +1,158 @@
+db.project.insert({
+  "name": "Novo Projeto",
+  "start_date": "01/01/2023",
+  "end_date": "31/12/2023"
+})
+
+
+db.projects.find({})
+Result: 
+{
+  _id: ObjectId("65329d307410328bf8081ecb"),
+  name: 'Projeto A',
+  start_date: '15/01/2023',
+  end_date: '20/02/2023'
+}
+{
+  _id: ObjectId("65329d307410328bf8081ecc"),
+  name: 'Projeto B',
+  start_date: '03/05/2023',
+  end_date: '30/06/2023'
+}
+{
+  _id: ObjectId("65329d307410328bf8081ecd"),
+  name: 'Projeto C',
+  start_date: '12/07/2023',
+  end_date: '25/09/2023'
+}
+
+
+
+db.projects.find({"name": "Projeto A"})
+
+{
+  _id: ObjectId("65329d307410328bf8081ecb"),
+  name: 'Projeto A',
+  start_date: '15/01/2023',
+  end_date: '20/02/2023'
+}
+
+
+db.tasks.find({"id_project": ObjectId("65329d307410328bf8081ecb")})
+
+{
+  _id: ObjectId("6532a11b7410328bf8081ef4"),
+  title: 'Fazer deploy',
+  description: 'Fazer deploy sabado de madrugada',
+  start_date: '06/10/2023',
+  deadline_data: '08/10/2023',
+  priority: '3',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecb")
+}
+
+db.users.find({"id_task": ObjectId("6532a11b7410328bf8081eff")})
+
+{
+  _id: ObjectId("6532a2a77410328bf8081f1d"),
+  first_name: 'Gustavo',
+  last_name: 'Rocha',
+  email: 'gustavo.rocha@example.com',
+  cellphone: '+55 222222222',
+  id_task: ObjectId("6532a11b7410328bf8081eff")
+}
+
+db.tasks.find({"status": "Em andamento"})
+
+{
+  _id: ObjectId("6532a11b7410328bf8081ef4"),
+  title: 'Fazer deploy',
+  description: 'Fazer deploy sabado de madrugada',
+  start_date: '06/10/2023',
+  deadline_data: '08/10/2023',
+  priority: '3',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecb")
+}
+{
+  _id: ObjectId("6532a11b7410328bf8081ef5"),
+  title: 'Desenvolver funcionalidade',
+  description: 'Desenvolver funcionalidade de login',
+  start_date: '06/10/2023',
+  deadline_data: '10/10/2023',
+  priority: '2',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecc")
+}
+{
+  _id: ObjectId("6532a11b7410328bf8081ef6"),
+  title: 'Revisar documentação',
+  description: 'Revisar a documentação do projeto',
+  start_date: '06/10/2023',
+  deadline_data: '12/10/2023',
+  priority: '1',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecd")
+}
+
+db.tasks.find({"priority": "2"})
+
+{
+  _id: ObjectId("6532a11b7410328bf8081ef5"),
+  title: 'Desenvolver funcionalidade',
+  description: 'Desenvolver funcionalidade de login',
+  start_date: '06/10/2023',
+  deadline_data: '10/10/2023',
+  priority: '2',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecc")
+}
+
+{
+  _id: ObjectId("6532a11b7410328bf8081ef7"),
+  title: 'Testar aplicativo',
+  description: 'Realizar testes de usabilidade no aplicativo',
+  start_date: '06/10/2023',
+  deadline_data: '15/10/2023',
+  priority: '2',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ece")
+}
+
+{
+  _id: ObjectId("6532a11b7410328bf8081efa"),
+  title: 'Desenvolver protótipo',
+  description: 'Desenvolver um protótipo da interface',
+  start_date: '06/10/2023',
+  deadline_data: '13/10/2023',
+  priority: '2',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ed1")
+}
+
+db.tasks.find({"id_project": ObjectId("65329d307410328bf8081ecb"), "status": "Em andamento"})
+
+{
+  _id: ObjectId("6532a11b7410328bf8081ef4"),
+  title: 'Fazer deploy',
+  description: 'Fazer deploy sabado de madrugada',
+  start_date: '06/10/2023',
+  deadline_data: '08/10/2023',
+  priority: '3',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecb")
+}
+
+db.tasks.find({"id_project": ObjectId("65329d307410328bf8081ecb"), "priority": "3"})
+
+{
+  _id: ObjectId("6532a11b7410328bf8081ef4"),
+  title: 'Fazer deploy',
+  description: 'Fazer deploy sabado de madrugada',
+  start_date: '06/10/2023',
+  deadline_data: '08/10/2023',
+  priority: '3',
+  status: 'Em andamento',
+  id_project: ObjectId("65329d307410328bf8081ecb")
+}
+

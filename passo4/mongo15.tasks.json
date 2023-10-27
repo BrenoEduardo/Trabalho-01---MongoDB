@@ -1,0 +1,378 @@
+[{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081ef4"
+  },
+  "title": "Fazer deploy",
+  "description": "Fazer deploy sabado de madrugada",
+  "start_date": "06/10/2023",
+  "deadline_data": "08/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ecb"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081ef5"
+  },
+  "title": "Desenvolver funcionalidade",
+  "description": "Desenvolver funcionalidade de login",
+  "start_date": "06/10/2023",
+  "deadline_data": "10/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ecc"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081ef6"
+  },
+  "title": "Revisar documentação",
+  "description": "Revisar a documentação do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "12/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ecd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081ef7"
+  },
+  "title": "Testar aplicativo",
+  "description": "Realizar testes de usabilidade no aplicativo",
+  "start_date": "06/10/2023",
+  "deadline_data": "15/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ece"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081ef8"
+  },
+  "title": "Planejar reunião",
+  "description": "Preparar pauta e agenda da reunião",
+  "start_date": "06/10/2023",
+  "deadline_data": "09/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ecf"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081ef9"
+  },
+  "title": "Aprovar orçamento",
+  "description": "Aprovar orçamento do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "11/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081efa"
+  },
+  "title": "Desenvolver protótipo",
+  "description": "Desenvolver um protótipo da interface",
+  "start_date": "06/10/2023",
+  "deadline_data": "13/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081efb"
+  },
+  "title": "Definir metas",
+  "description": "Definir metas e objetivos do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "14/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081efc"
+  },
+  "title": "Entrevistar clientes",
+  "description": "Entrevistar clientes para coletar feedback",
+  "start_date": "06/10/2023",
+  "deadline_data": "15/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081efd"
+  },
+  "title": "Revisar código",
+  "description": "Revisar o código-fonte do aplicativo",
+  "start_date": "06/10/2023",
+  "deadline_data": "16/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081efe"
+  },
+  "title": "Realizar testes de desempenho",
+  "description": "Realizar testes de desempenho no servidor",
+  "start_date": "06/10/2023",
+  "deadline_data": "17/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed5"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081eff"
+  },
+  "title": "Elaborar relatório",
+  "description": "Elaborar relatório de andamento do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "18/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed6"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f00"
+  },
+  "title": "Treinar equipe",
+  "description": "Treinar a equipe para a nova funcionalidade",
+  "start_date": "06/10/2023",
+  "deadline_data": "19/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed7"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f01"
+  },
+  "title": "Configurar servidor",
+  "description": "Configurar o servidor para a nova versão",
+  "start_date": "06/10/2023",
+  "deadline_data": "20/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed8"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f02"
+  },
+  "title": "Realizar backup",
+  "description": "Realizar backup dos dados do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "21/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ed9"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f03"
+  },
+  "title": "Realizar testes de segurança",
+  "description": "Realizar testes de segurança no sistema",
+  "start_date": "06/10/2023",
+  "deadline_data": "22/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081eda"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f04"
+  },
+  "title": "Atualizar documentação",
+  "description": "Atualizar a documentação do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "23/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081edb"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f05"
+  },
+  "title": "Realizar testes de aceitação",
+  "description": "Realizar testes de aceitação com o cliente",
+  "start_date": "06/10/2023",
+  "deadline_data": "24/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081edc"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f06"
+  },
+  "title": "Preparar apresentação",
+  "description": "Preparar apresentação para o cliente",
+  "start_date": "06/10/2023",
+  "deadline_data": "25/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081edd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f07"
+  },
+  "title": "Apresentar resultados",
+  "description": "Apresentar resultados ao cliente",
+  "start_date": "06/10/2023",
+  "deadline_data": "26/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ede"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f08"
+  },
+  "title": "Preparar documentação final",
+  "description": "Preparar documentação final do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "27/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081edf"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f09"
+  },
+  "title": "Finalizar desenvolvimento",
+  "description": "Finalizar o desenvolvimento do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "28/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ee0"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f0a"
+  },
+  "title": "Realizar revisão final",
+  "description": "Realizar revisão final do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "29/10/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ee1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f0b"
+  },
+  "title": "Preparar para implantação",
+  "description": "Preparar o ambiente para a implantação do projeto",
+  "start_date": "06/10/2023",
+  "deadline_data": "30/10/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ee2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f0c"
+  },
+  "title": "Implantar sistema",
+  "description": "Implantar o sistema no ambiente do cliente",
+  "start_date": "06/10/2023",
+  "deadline_data": "31/10/2023",
+  "priority": "2",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ee3"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f0d"
+  },
+  "title": "Treinar equipe do cliente",
+  "description": "Treinar a equipe do cliente para usar o sistema",
+  "start_date": "06/10/2023",
+  "deadline_data": "01/11/2023",
+  "priority": "3",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ee4"
+  }
+},
+{
+  "_id": {
+    "$oid": "6532a11b7410328bf8081f0e"
+  },
+  "title": "Acompanhar pós-implantação",
+  "description": "Acompanhar o desempenho do sistema após a implantação",
+  "start_date": "06/10/2023",
+  "deadline_data": "02/11/2023",
+  "priority": "1",
+  "status": "Em andamento",
+  "id_project": {
+    "$oid": "65329d307410328bf8081ee5"
+  }
+}]
